@@ -50,6 +50,8 @@
                 <&kp LSHFT &kp LALT>;
 
             label = "LAN_CHANGE";
+            wait-ms = <30>;
+            tap-ms = <40>;
         };
     };
 

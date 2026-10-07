@@ -44,7 +44,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press &kp LALT>,
-                <macro_tap &kp LSHIFT>,
+                <&macro_tap &kp LSHIFT>,
                 <&macro_release &kp LALT>;
 
             label = "LAN_CHANGE";

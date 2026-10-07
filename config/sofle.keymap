@@ -43,11 +43,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LALT &kp LSHFT>,
+                <&macro_press &kp LALT &kp LSHIFT>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LSHFT &kp LALT>;
+                <&macro_release &kp LSHIFT &kp LALT>;
 
             label = "LAN_CHANGE";
             wait-ms = <30>;
